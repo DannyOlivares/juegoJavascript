@@ -99,18 +99,19 @@
         const verde = document.getElementById('verde');
         const naranja = document.getElementById('naranja');
         const btnEmpezar = document.getElementById('btnEmpezar');
-        class juego {
+        
+        class Juego {
             constructor() {
                 this.inicializar()
             }
 
             inicializar() {
-                btn.Empezar.classList.add('hide');
+                btnEmpezar.classList.add('hide');
             }
         }
 
         function empezarJuego() {
-
+            var juego = new Juego();
         }
     </script>
 </body>
